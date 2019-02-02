@@ -1,22 +1,22 @@
-# Navigating the Conversation
-This video covers how to make a chatbot conversation history accessible. We'll use the CSS property `overflow-y` to make a scrollable DIV, and add the `tabindex` attribute to make this DIV appear in the keyboard focus sequence.
+# Navigating the Conversation #
+This video explains how to make a chatbot conversation history accessible. We'll explain why the conversation must be navigable and why we need to make it work with the mouse and keyboard. 
 
-## Things to consider
+We'll Use the CSS property `OVERFLOW-Y` to make a `SECTION` element scroll vertically with overflowing content. And add the `TABINDEX` attribute to make the element appear in the keyboard focus sequence.
 
-All users need the option to navigate through the entire conversation history at any point when they're talking to a bot. But if we only allow the conversation history to be navigated via the mouse, keyboard users will be unable to access the content. This presents some interesting design decisions where we add attributes to make HTML elements work in different ways.
+All users need to be able to navigate through the entire conversation history at any point when talking to a bot. But, if we only allow navigation via the mouse, keyboard users will be unable to see the history. So, we need to build in extra keyboard support, and when we build in the keyboard support we also need to make the element appear in the keyboard tab sequence.
 
-## How it is made accessible
+If we look at the code, every conversation is rendered in a `SECTION` element which alternate between messages from the bot and messages from the user. `SECTION` elements can help a screen reader user by providing better context than generic `DIV` elements, in essence a `SECTION` element means this content is special and within the screen reader a user can usually navigate to named regions on the page.
 
-If we look at the code, every conversation bubble is rendered in a DIV. As we can see they alternate between messages from the bot and messages from the user. All these DIVs are rendered within a further DIV element. This acts as the chatbot conversation window, and we've set to this to a fixed height of `150px` and the overflow property set to hidden. The conversation window has content which overflows the containers fixed height dimensions. Because the overflow property is set to hidden, we're unable to see further message bubbles.
-We remove the overflow property and add the property overflow-y: scroll. This now displays a vertical scroll bar, which allows navigation of the entire conversation history.
+Every `SECTION` element is rendered within a further `SECTION` element which is the chatbot conversation window and this contains all of the conversation history. We've set to this to a fixed height of `150px` and the `OVERFLOW` property set to `HIDDEN`. 
 
-Now ordinarily a DIV element doesn’t receive keyboard focus because it’s non-semantic. What this means is it has no meaning in HTML. Without keyboard focus its difficult for users who rely on the keyboard to navigate through the conversation history. To overcome this we add the attribute `tabindex` and the value of 0. Tabindex makes the element focusable from the keyboard, and a value of zero makes it appear in the normal keyboard ordering sequence of the page elements. 
+The conversation window has content which overflows the fixed height dimensions. But because the `OVERFLOW` property is set to `HIDDEN`, we're unable to see further messages. This is changed by removing the `OVERFLOW` property and adding the property `OVERFLOW-Y` with a value of `SCROLL`. 
 
-We can add the `tabindex` attribute onto each message bubble so individual messages can become focusable from the keyboard. But the general view is to avoid adding behaviour onto elements which traditionally don’t have that default behaviour to begin with. 
+This means when the content overflows the `SECTION` elements fixed height, a vertical scrollbar appears and we can scroll through the entire conversation history.
 
-## What we covered
+Even though we've now made the entire conversation history viewable a user navigating with the keyboard won't be able to scroll the conversation history as `SECTION` elements don’t receive keyboard focus. Add the attribute `TABINDEX` and the value of 0 to the parent `SECTION` containing all of the children elements. This makes it focusable from the keyboard and a value of 0 makes it appear in the regular keyboard ordering sequence of the other focusable page elements.
 
-In today's training session we covered making the conversation history navigable. We used the CSS property `overflow-y` to allow a DIV to accommodate for overflowing content, and we used the tabindex attribute to make the DIV appear in the keyboard sequence. 
-When the conversation overflows a vertical scroll bar appears. Adding `tabindex` to this DIV allows the element to appear in the keyboard focus sequence with the up and down arrow keys used to scroll through the container.
+We covered why the conversation history must be navigable and how to go about it. We used the CSS property overflow-y to make a SECTION element accommodate for overflowing content, and we used the TABINDEX attribute to make the SECTION element appear in the keyboard sequence. 
 
-Check the descriptions below for background information, WCAG success criteria, links to the transcript and GitHub source and remember to like and share.
+When the conversation overflows a vertical scrollbar appears. Adding `TABINDEX` to this `SECTION` element then makes the element appear in the keyboard tab sequence and the up and down arrow keys are used to scroll through the container.
+
+Check the descriptions below for background information, WCAG 2 success criteria, links to the transcript and completed HTML source on GitHub and remember to like and share.
