@@ -1,2 +1,2 @@
 # Canaxess Teaches
-Code samples and video transcripts from our YouTube training.
+Learn web accessibility from one of the industry's best. Short, practical and focused accessibility training from our YouTube channel CANAXESS teaches
