@@ -3,6 +3,9 @@
 
 The conversation history of a chatbot must be navigable by the user with and without using the mouse. If we only provide support for mouse navigation it's unable to be used by keyboard users and means we fail a WCAG 2.0 AA success criteria. 
 
+## Live demo ##
+[Navigating the conversation](https://canaxess.github.io/canaxess-teaches/chatbot-accessibility-fundamentals/1-navigating-the-conversation/)
+
 ## CSS, HTML and User Agent compatibility ##
 
 &nbsp;        | Internet Explorer 11 | Edge | Chrome 72 | FireFox Quantum 65
