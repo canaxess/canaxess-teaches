@@ -4,10 +4,11 @@
 Screen reader users may use the chatbot in a non-visual way and each conversation block must be identifiable, is each message spoken by the bot or the user. Providing a label of who spoke and the time they spoke provides greater context for screen reader users.
 ## Live demo ##
 [Identifying the conversation](https://canaxess.github.io/canaxess-teaches/chatbot-accessibility-fundamentals/2-identifying-the-conversation/)
-## NVDA 2018.2.1 and User Agent compatibility ##
+## NVDA<sup>i</sup> and User Agent compatibility ##
 
 &nbsp;        | Internet Explorer 11 | Edge | Chrome 72 | FireFox Quantum 65
 :-------------: |:-------------:| :-----:| :-----:| :-----:
 `aria-label`    | NO* | YES | YES | YES
 
-*`aria-label` when applied to `<section>` elements is not showing in the NVDA landmarks tab in IE11
+*`aria-label` when applied to `<section>` elements is not showing in the NVDA landmarks tab in IE11<br>
+<sup>i</sup>NVDA version 2018.2.1
