@@ -10,5 +10,12 @@ Screen reader users may use the chatbot in a non-visual way and each conversatio
 :-------------: |:-------------:| :-----:| :-----:| :-----:
 `aria-label`    | NO* | YES | YES | YES
 
+## JAWS<sup>ii</sup> and User Agent compatibility ##
+
+&nbsp;        | Internet Explorer 11 | Edge | Chrome 72 | FireFox Quantum 65
+:-------------: |:-------------:| :-----:| :-----:| :-----:
+`aria-label`    | YES | NO | YES | NO
+
 *`aria-label` when applied to `<section>` elements is not showing in the NVDA landmarks tab in IE11<br>
-<sup>i</sup>NVDA version 2018.2.1
+<sup>i</sup>NVDA version 2018.2.1<br>
+<sup>ii</sup>JAWS version 17.0.2729
