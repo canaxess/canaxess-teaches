@@ -12,6 +12,6 @@ Screen reader users navigate onscreen content audibly. If parts of the screen ch
 :-------------: |:-------------:| :-----:| :-----:| :-----:
 `aria-live`    | YES | NO* | YES | YES
 
-<sup>i</sup>NVDA version 2018.2.1
-
 *Edge only announces the container title 'chatbot-conversation' not individual messages
+
+<sup>i</sup>NVDA version 2018.2.1
