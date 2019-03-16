@@ -2,7 +2,6 @@
 In the last video we covered how to identify the conversation. We used the `ARIA-LABEL` attribute to provide a better name for each conversation and we enhanced this by adding a timestamp to make it easier to understand the message history, and to provide a unique name for every message.
 
 This video shows how to support dynamic content. We'll use an `ARIA-LIVE` attribute to make each `SECTION` element be announced through the screen reader and we'll explain how to use the `ARIA-LIVE` value to increase the priority of when new content is announced.
-Things to consider
 
 Screen reader users navigate onscreen content audibly. If parts of the screen change visually, we need to ensure the change is identifiable programmatically as well. By making a change programmatically identifiable the screen reader monitors what has changed and announces the change audibly.
 
