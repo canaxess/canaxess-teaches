@@ -14,4 +14,4 @@ Screen reader users navigate onscreen content audibly. If parts of the screen ch
 
 *Edge only announces the container title 'chatbot-conversation' not individual conversations
 
-<sup>i</sup>NVDA version 2018.2.1
+NVDA version 2018.2.1
