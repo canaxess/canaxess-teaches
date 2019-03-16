@@ -6,7 +6,7 @@ Screen reader users navigate onscreen content audibly. If parts of the screen ch
 ## Live demo ##
 [Support for dynamic content](https://canaxess.github.io/canaxess-teaches/chatbot-accessibility-fundamentals/3-support-dynamic-content/)
 
-## NVDA<sup>i</sup> and User Agent compatibility ##
+## NVDA and User Agent compatibility ##
 
 &nbsp;        | Internet Explorer 11 | Edge | Chrome 72 | FireFox Quantum 65
 :-------------: |:-------------:| :-----:| :-----:| :-----:
