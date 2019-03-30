@@ -5,7 +5,7 @@ Many bot frameworks return several different types of responses in addition to r
 
 ## Live demo ##
 
-Understand the range of responses
+[Understand the range of responses](https://canaxess.github.io/canaxess-teaches/chatbot-accessibility-fundamentals/4-understand-range-of-responses/)
 
 ## HTML and User Agent compatibility ##
 
