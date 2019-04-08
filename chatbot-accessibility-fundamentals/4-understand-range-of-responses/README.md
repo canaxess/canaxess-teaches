@@ -7,9 +7,9 @@ Many bot frameworks return several different types of responses in addition to r
 
 [Understand the range of responses](https://canaxess.github.io/canaxess-teaches/chatbot-accessibility-fundamentals/4-understand-range-of-responses/)
 
-## HTML and User Agent compatibility ##
+## NVDA and User Agent compatibility ##
 
 &nbsp;        | Internet Explorer 11 | Edge | Chrome 72 | FireFox Quantum 65
 :-------------: |:-------------:| :-----:| :-----:| :-----:
-`FOR` and `ID`		| ? | ? | ? | ?
-`aria-label`    | ? | ? | ? | ?
+`FOR` and `ID`		| YES | YES | YES | YES
+`aria-label`    | YES | YES | YES | YES
