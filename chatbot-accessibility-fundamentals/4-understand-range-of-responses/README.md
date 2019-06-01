@@ -1,4 +1,4 @@
-# Understand the range of responses #
+# Understand the Range of Responses #
 This video explains several different ways the Microsoft bot framework can respond to the user through rich card templates. And how to add accessibility support into these range of bot responses.
 
 Many bot frameworks return several different types of responses in addition to regular text. Because of this we need to ensure accessibility is being maintained regardless of the type of response.
