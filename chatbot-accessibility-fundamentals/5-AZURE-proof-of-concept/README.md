@@ -1,4 +1,4 @@
-# AZURE proof of concept
+# AZURE Proof of Concept
 This video is the last in the series putting all of the techniques from the previous four videos together. We'll be using the fenton UI code to create a proof of concept chatbot running on the Azure platform which demonstrates all the accessibility principles we've covered.
 ## fenton UI
 1. Clone or download a copy of the [fenton UI](https://github.com/canaxess/fenton)
