@@ -1,4 +1,4 @@
-# Create Logical Headings #
+# Transcript #
 
 Headings on a webpage are much more than a large and prominent font. Headings provide a visual hierarchy that breaks up content and allows a user to easily scan the page. However, unless the heading structure has been coded correctly the page hierarchy will be meaningless to non-sighted users
 
