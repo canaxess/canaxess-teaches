@@ -1,4 +1,4 @@
-# Decorative And Descriptive Images #
+# Transcript #
 
 For vision impaired users every image needs to provide a text alternative, which is a way for the user to understand what the image is describing. But if the image is decorative, this description is not required, in both instances though the ALT attribute is required.
 
