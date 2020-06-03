@@ -1,4 +1,4 @@
-# Avoid An Artificial Tabindex #
+# Transcript #
 
 Every interactive element on a webpage receives keyboard focus when the user presses the tab key. That is unless the attribute tabindex is added to elements. When the value of tabindex is artificially altered and used incorrectly it causes many headaches.
 1-2 Sentence overview
