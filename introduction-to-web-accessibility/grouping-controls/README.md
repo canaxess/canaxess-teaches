@@ -1,4 +1,4 @@
-# Group Related Links #
+# Transcript #
 
 Sometimes links on a page are related, they may be links in the header such as navigation or links in the footer. When a grouping mechanism is used for these links it can trigger the screen reader to announce extra information which can assist the user in understanding how the page is structured.
 
