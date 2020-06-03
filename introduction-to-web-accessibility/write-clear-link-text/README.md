@@ -1,4 +1,4 @@
-# Write Clear Link Text #
+# Transcript #
 
 Links are the core way to navigate between webpages, but creating link text which is understandable can be a challenge. Unless the link text is well written it can be very easy or very hard for a user navigating audibly to understand where the link takes them.
 
