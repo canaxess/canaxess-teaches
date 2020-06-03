@@ -1,32 +1,34 @@
 # Transcript #
 
-Sometimes links on a page are related, they may be links in the header such as navigation or links in the footer. When a grouping mechanism is used for these links it can trigger the screen reader to announce extra information which can assist the user in understanding how the page is structured.
+Grouping related controls together can help a user understand relationships more clearly between components. For example, form controls for an address may be grouped visually next to each other, but if the user is unable to identify the visual grouping any relationship between controls can be difficult to understand.
 
-In this lecture I'll walk through using the list elements. I'll explain why grouping related links can be helpful for a user, ordered and unordered list elements will be used to group links and show how the screen reader responds when using the different list elements.
+In this lecture I'll show how to group related controls together semantically. I'll explain why you may want to apply groupings to similar controls and how to use semantic HTML to ensure the grouping is identifiable via a screen reader and therefor perceivable to a larger collection of users.
 
-By the end of this lecture you'll understand the added extras that come with grouping related links together provides to the user, and also why you need to use this technique carefully, additionally you'll be able to identify which list element to use to trigger the screen reader to give out this extra information.
+At the end of this lecture you'll understand how to group related form controls together using semantic HTML to allow screen reader users to understand related controls. You'll understand that although grouping is a good way of creating relationships which are conveyed without relying on the way components are arranged, the technique should be used only when necessary.
 
-Screen reader users navigate websites in a non-visual way. Links which are arranged to convey meaning visually relying on a presentational effect also need to be marked up in a way to induce the screen reader to provide extra helpful information. Without this screen reader hint, the broader meaning of what these links mean and if they're related can become confusing. 
+The way form controls are laid out on screen can help and enhance the understanding of relationships and how controls relate to each other. 
 
-If there were several links in the header of a webpage which navigated to different sections of a site, visually they're located at the top of page, laid out close to each other and related. This is all known purely from how they look on screen. 
+A collection of dropdown list controls for a date of birth may be understandable when adjacent to each other, but if a user can't perceive the visual grouping, they will only hear the individual labels and be unclear how they relate to each other. 
 
-Screen reader users don’t always have the ability to identify visual cues and so instead rely on other information and this is where the screen reader can be leveraged to help us provide extra non-visual cues. 
+They may guess it’s a grouping of controls requiring the date of birth, but when a relationship becomes complex, grouping controls together semantically can help a user understand how components relate to each other. 
 
-The list elements ul and ol can be used to trigger the screen reader to announce the type of list, the number of items in the list and depending on the list type, whether its bulleted or numbered. 
+In the previous lecture "add labels to controls", a label provided a description of the individual control. But to identify groups of controls which are related the fieldset and legend elements can be used to provide a description for the whole group. This grouping mechanism triggers a screen reader to announce the legend text before the label text of each control.
 
-For example, an unordered list with 3 items will trigger some screen readers to announce "list with 3 items" and then every item will trigger the screen reader to announce "bullet item a", "bullet item b", "bullet item c".
+Form controls can be grouped together using the fieldset and legend elements, all controls which are contained within the fieldset are then related. The legend element is the first element within the fieldset, and this describes the grouping and what is announced by the screen reader. When a screen reader focuses on any control within the fieldset the legend text is announced prior to the label of each control.
 
-An ordered list with the same 3 items will trigger the screen reader to announce the same as before "list with 3 items" except this time the screen reader will announce every items position in the list first followed by the item "1 bullet item a" and so on.
+Grouping controls using the fieldset and legend element is most important for radio buttons and checkboxes. The individual label for each control may be insufficient to describe the whole groups description. 
 
-The behaviour is dependent on the assistive technology, different screen readers and different versions of screen readers may announce the element type first followed by the elements. Using ul and ol elements to group links acts as meta data for the screen reader and provide subtle extra hints for the user to understand and interpret.
+In this example there are several controls asking a user to select their shipping options, the label of each control describes the value but not the relationship to each other. In this instance grouping must be used to provide an additional description.
 
-Whilst this extra grouping is helpful for the user, avoid the urge to group all page links into list elements. This is a case of using the technique carefully and applying it only when necessary. Because the screen reader announces the list type and element position it adds to the audible overhead a screen reader user has to understand and take in. The more noise a user listens to, the more fatiguing it can become.
+The numerous shipping options could therefore be enhanced by wrapping all of the radio buttons within a fieldset element and use the legend element to provide an extra level of description. When each control receives focus, the legend text will be announced first followed by the control label.
 
-This is where once again you need to make a judgement call. Do the collection of links require grouping into list elements. Does providing list meta data provide helpful information to the user allowing them to understand the relationship of the contained links, or is it providing unnecessary noise, only you can answer that.
+The technique is a convenient way to provide an additional level of detail for controls which may have an unclear relationship. However, don’t overuse it. Only use it where there is a need to provide additional relationship information. Because a screen reader conveys onscreen information audibly extra irrelevant content is announced which can become fatiguing.
 
-Using OL and UL elements for grouping together related links satisfies the HTML specific technique H48 Using ol, ul and dl for lists or groups of links which means this has passed success criterion 1.3.1 Info and Relationships: Information, structure, and relationships conveyed through presentation can be programmatically determined or are available in text at level A.
+Using the fieldset and legend elements for additional relationship information is covered by the HTML specific technique H71: Providing a description for groups of form controls using fieldset and legend elements which means this has passed success criterion 1.3.1 Info and Relationships: Information, structure, and relationships conveyed through presentation can be programmatically determined or are available in text at level A.
 
-I explained how related links can be grouped together using the list elements UL for unordered lists and OL for ordered lists and how by using these elements extra meta data is provided for free by the screen reader or assistive technology to inform the user about the list. I also emphasised that whilst it’s a convenient way to group related links together care should be taken to not overuse the technique due to the extra noise of meta data used to inform the user about the links.
+Using fieldset and legend elements are a great way to group related controls together. When controls are contained within this grouping the screen reader announces the legend text followed by the control label so it’s a convenient way to describe a collection of related controls which belong together. 
+
+Although it can be applied to all controls, its best suited to use for checkboxes and radio buttons where the individual label for each control may be insufficient to describe the whole groups description.
 
 This video is from our Introduction to Web Accessibility WCAG 2.1 Udemy course. The course is designed to teach you the fundamentals of web accessibility and how to apply those techniques to websites that you create. If you're interested in finding out a little more, checkout the link in the description below as well as links to a full transcript.
 
