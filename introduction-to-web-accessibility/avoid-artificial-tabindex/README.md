@@ -1,7 +1,6 @@
 # Transcript #
 
 Every interactive element on a webpage receives keyboard focus when the user presses the tab key. That is unless the attribute tabindex is added to elements. When the value of tabindex is artificially altered and used incorrectly it causes many headaches.
-1-2 Sentence overview
 
 In this lecture I'll discuss the tabindex attribute, an attribute that has the power to really ruin the logical tab order of any webpage. I'll explain the implied tab ordering of interactive components, how this can be changed using tabindex and show how the values of -1 can be used to restrict keyboard focus from hidden elements and a value of 0 creates a sequential ordering sequence.
 
