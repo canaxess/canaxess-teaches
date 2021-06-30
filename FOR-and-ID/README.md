@@ -11,7 +11,7 @@ In this lesson you will learn to link a label to a form control using the `FOR` 
 ~ blah
 
 - [Exercise](https://codesandbox.io/s/link-labels-to-form-controls-using-the-for-and-id-attributes-urlmo)
-- Final
+- [Final](https://for-and-id.netlify.app)
 
 ## Prerequisites
 
