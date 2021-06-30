@@ -4,7 +4,7 @@ In this lesson you will learn to link a label to a form control using the `FOR` 
 
 ## Background
 
-Navigating a page visually allows relationships between labels and controls to be understood, but if visual navigation is difficult this relationship is no longer effective. The `FOR` and `ID` attributes provide a programmatic link between the label and form control allowing a screen reader user to understand the type of data a control requires. 
+Navigating a page visually allows relationships between labels and controls to be understood, but if visual navigation is difficult this relationship is no longer effective. The `FOR` and `ID` attributes provide a programmatic link between the label element and most form controls allowing a screen reader user to understand the type of data a control requires. 
 
 When a label is programmatically linked to a form control, the screen reader will use the label to provide an audible prompt to the user.
 
