@@ -10,7 +10,7 @@ When a label is programmatically linked to a form control, the screen reader wil
 
 ## Exercise
 
-- [Exercise](https://codesandbox.io/s/link-labels-to-form-controls-using-the-for-and-id-attributes-urlmo)
+- [Exercise](https://codesandbox.io/s/link-labels-to-form-controls-using-the-for-and-id-attributes-f0oux)
 - [Final](https://for-and-id.netlify.app)
 
 The `FOR` and `ID` attributes when used correctly are the most straightforward way to associate a label element to a form control, and has universal support amongst browsers and screen reader combinations.
