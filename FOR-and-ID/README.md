@@ -10,7 +10,7 @@ In this lesson you will learn to link a label to a form control using the `FOR` 
 
 ~ blah
 
-- Exercise
+- [Exercise](https://codesandbox.io/s/link-labels-to-form-controls-using-the-for-and-id-attributes-urlmo)
 - Final
 
 ## Prerequisites
