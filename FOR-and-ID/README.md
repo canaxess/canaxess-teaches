@@ -21,3 +21,4 @@ Google Chrome is the preferred browser.
 
 ## Screen reader compatibility
 
+[Compatibility](https://github.com/canaxess/canaxess-teaches/blob/master/FOR-and-ID/COMPATIBILITY.md)
