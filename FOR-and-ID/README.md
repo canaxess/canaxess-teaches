@@ -18,3 +18,5 @@ The `FOR` and `ID` attributes when used correctly are the most straightforward w
 ## Prerequisites
 
 Google Chrome is the preferred browser.
+
+## Compatibility
