@@ -20,3 +20,4 @@ The `FOR` and `ID` attributes when used correctly are the most straightforward w
 Google Chrome is the preferred browser.
 
 ## Compatibility
+`Test = label announced by screen reader using FOR and ID attributes`
