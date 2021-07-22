@@ -1,4 +1,4 @@
-# Create labels for form controls use the aria-label attribute
+# Create labels for form controls using the aria-label attribute
 
 In this lesson you will learn to create a programmatic label for a form control using the `aria-label` attribute. We will confirm the programmatic label is applied correctly by viewing the accessibility tree in Chrome developer tools.
 
