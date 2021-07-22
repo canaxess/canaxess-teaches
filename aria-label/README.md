@@ -4,8 +4,8 @@ In this lesson you will learn to create a programmatic label for a form control 
 
 ## Exercise
 
-- Exercise
-- Final
+- [Exercise](https://codesandbox.io/s/create-labels-for-form-controls-use-the-aria-label-attribute-9ixpm)
+- [Final](https://aria-label.netlify.app/)
 
 Sometimes it's difficult to have a visible label which is programmatically linked to an input control, for times like this we need to look at aria attributes which can be used to provide a programmatic label for the input control.
 
